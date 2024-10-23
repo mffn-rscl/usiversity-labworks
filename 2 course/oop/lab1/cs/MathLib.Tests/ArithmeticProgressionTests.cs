@@ -18,7 +18,7 @@ namespace MathLib.Tests
         public void TestProgressionSum()
         {
             var progression = new ArithmeticProgression(1, 2);
-            Assert.AreEqual(25, progression.Sum(5));  
+            Assert.AreEqual(25, progression.Sum(5));    
         }
     }
 }
