@@ -15,9 +15,15 @@ namespace MathLib
 
         public double this[int index]
         {
+           
             get
             {
-                return firstTerm + (index - 1) * commonDifference;
+                if (index < 0)
+                {
+                    throw new ArgumentOutOfRangeException(nameof(index), "Index must be non-negative.");
+                }
+                return (firstTerm + (index - 1) * commonDifference);
+
             }
         }
 

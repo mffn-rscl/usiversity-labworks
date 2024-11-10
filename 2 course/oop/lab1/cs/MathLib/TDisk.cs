@@ -13,6 +13,11 @@ namespace MathLib
             Center = (x, y);
         }
 
+        public TDisk(TDisk disk)
+        {
+            Radius = disk.Radius;
+        }
+
         public double Area()
         {
             return Math.PI * Math.Pow(Radius, 2);

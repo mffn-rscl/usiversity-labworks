@@ -6,8 +6,8 @@ namespace MathLib
     {
         static void Main(string[] args)
         {
-            var progression = new ArithmeticProgression(1, 2);
-            Console.WriteLine("5th member of the progression: " + progression[5]);
+            var progression = new ArithmeticProgression(1, -2);
+            Console.WriteLine("5th member of the progression: " + progression[-1]);
             Console.WriteLine("first 5 elements sum: " + progression.Sum(5));
 
             var disk = new TDisk(5, 0, 0);
