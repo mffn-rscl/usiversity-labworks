@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "6nIgfsMkNY9P0jK2Ynv988R9tc5KTo2PDMJlC5GA2nl8X4ouTdhaqqtgByx5hWEsJ1QbgdJTtFVb78snELR67g==",
+  "dgSpecHash": "H2OtZcdYW6FCpFQqhGJjYYGqUWI6imuxn5vPiWt5aC/GlG/bACJTtRUgakkJdL6tk2P1ovbyA1XUKyzJeSWUKg==",
   "success": true,
   "projectFilePath": "/home/user/files/university-labworks/2 course/oop/Exceptions/task_2/task_2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/user/.nuget/packages/microsoft.win32.systemevents/9.0.0/microsoft.win32.systemevents.9.0.0.nupkg.sha512",
+    "/home/user/.nuget/packages/sixlabors.imagesharp/3.1.6/sixlabors.imagesharp.3.1.6.nupkg.sha512",
+    "/home/user/.nuget/packages/system.drawing.common/9.0.0/system.drawing.common.9.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
